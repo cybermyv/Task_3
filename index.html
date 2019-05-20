@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Задание №3</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1 id="caption">Задание 3</h1>
+            <p>Создать игру “Найди пару”. Страница содержит игровое поле размером 4 на 4 квадрата, кнопку "Играть" и
+                таймер. В начале игры все квадраты окрашены в белый цвет.
+                После нажатия на кнопку "старт", для 16 квадратов случайно генерируются 8 пар различных цветов. Таймер
+                начинает отсчёт. Когда игрок нажимает на одну из клеток, она окрашивается в определенный цвет. Суть игры
+                - открыть 2 клетки одного цвета. После нажатия на клетку (если цвета у клеток совпали) - цвета никуда не
+                продают, если же вы ошиблись, то оба квадрата окрашиваются обратно в белый.
+                Цель игры - найти всем клеткам пары, тем самым полностью раскрасив игровое поле. После нахождения
+                последней пары таймер останавливается и появляется всплывающее окно с информацией об окончании игры и
+                временем затраченном на неё.
+            </p>
+        </header>
+        <main class="container">
+
+            <div class="box">
+
+                <table>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                </table>
+
+            </div>
+
+            <div class="box">
+                <button id="start_game">Старт</button>
+            </div>
+
+            <div class="box">
+                <p id="time_game"><span id="hour">00</span>:<span id="minute">00</span>:<span id="sec">00</span></p>
+            </div>
+
+
+
+        </main>
+        <footer>Миронов Ю. 2019</footer>
+    </div>
+    <script src="script.js"> </script>
+
+</body>
+
+</html>

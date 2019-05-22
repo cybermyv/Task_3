@@ -30,9 +30,9 @@ body {
 }
 
 .box {
-	width: 500px;
+    width: 500px;
     padding: 10px 0 10px 0;
-    
+
 }
 
 
@@ -62,4 +62,47 @@ table td {
     border: 1px solid black;
     width: 100px;
     height: 100px;
+}
+
+
+
+table .colors1 {
+    background-color: black;
+}
+
+table  .colors2 {
+    background-color: gray;
+}
+
+table .colors3 {
+    background-color: red;
+}
+
+table .colors4 {
+    background-color: blue;
+}
+
+table .colors5 {
+    background-color: green;
+}
+
+table .colors6 {
+    background-color: yellow;
+}
+
+table .colors7 {
+    background-color: orangered;
+}
+
+table .colors8 {
+    background-color: navy;
+}
+
+/* table .visible{
+    display: inline-block;
+} */
+
+table .invisible {
+    background-color: white;
+    /* display: none; */
 }

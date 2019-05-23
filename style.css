@@ -30,11 +30,22 @@ body {
 }
 
 .box {
-    width: 500px;
+    width: 426px;
     padding: 10px 0 10px 0;
+    
 
 }
 
+.started_on{
+    background-color: #1e90ff;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.started_off{
+    display: none;
+}
 
 #caption {
 
@@ -56,6 +67,7 @@ footer {
 
 table {
     border: 1px solid black;
+    text-align: center;
 }
 
 table td {
